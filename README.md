@@ -2,9 +2,9 @@
 
 
 
-<center>姓名：张丁月  学号：20020007099</center>
+<center></center>
 
-| 姓名和学号？         | 张丁月，20020007099                 |
+| 姓名和学号？         |                  |
 | -------------------- | -------------------------------- |
 | 本实验属于哪门课程？ | 中国海洋大学22夏《移动软件开发》 |
 | 实验名称？           | 实验6：安卓APP首页          |
@@ -26,43 +26,44 @@
 列出实验的关键步骤、代码解析、截图。
 1.首先将页面上分为四个部分：顶部图片模块、顶部菜单模块、待办消息模块和底部Tab按钮
 （示例如下）
-![图片1.png](../_resources/图片1.png)
+
+![图片1](https://user-images.githubusercontent.com/111416724/186908786-a20d2004-df4d-4f96-8f5d-0b616c9175a6.png)
 
 2.然后首先创建父布局，新建ScrollView ，创建ScrollView 内部父布局
 
-![2.png](../_resources/2.png)
+![2](https://user-images.githubusercontent.com/111416724/186908803-bd423d68-f0a3-4fe5-bb63-610659e7d6af.png)
 
 3.然后创建顶部首页显示栏，设置宽高、文字、字体样式、字体颜色和字体居中
 
-![3.png](../_resources/3.png)
+![3](https://user-images.githubusercontent.com/111416724/186908819-3db17c17-4d9d-4a9d-9109-ac8ebf1b587c.png)
 
 4.创建顶部图片，设置宽高，src加载图片，设置边距
 
-![4.png](../_resources/4.png)
+![4](https://user-images.githubusercontent.com/111416724/186908843-8657bf6e-ff9d-423d-9c8f-6517e6c3501b.png)
 
 5.菜单栏模块
 首先创建一个横向的LinearLayoutLinearLayout来作为菜单栏的父布局，再次创建一个LinearLayout作为单个按钮的父布局，创建上边的图片按钮,并设置其属性，设置按钮底部文字并赋予其属性
 
-![5.png](../_resources/5.png)
+![5](https://user-images.githubusercontent.com/111416724/186908859-8933742c-b794-4ab4-9122-ee8dad1440c2.png)
 
 6.消息模块
 首先创建一个横向的LinearLayout来作为菜单栏的父布局，然后创建待办Textview，接着创建更多Textview
 
-![6.png](../_resources/6.png)
+![6](https://user-images.githubusercontent.com/111416724/186908879-4c493bf2-98a7-4cb9-8dac-36fa88f6212c.png)
 
 7.底部Tab模块
 首先创建一个横向的LinearLayoutLinearLayout来作为菜单栏的父布局，再次创建一个LinearLayout作为单个按钮的父布局
 
-![7.png](../_resources/7.png)
+![7](https://user-images.githubusercontent.com/111416724/186908896-ba1b6947-7624-4301-bbec-d7f9b741d52e.png)
 
 ## 三、程序运行结果
 
 列出程序的最终运行结果及截图。
 最终效果如下（可滑动）：
 
-![8.jpg](../_resources/8.jpg)
+![8](https://user-images.githubusercontent.com/111416724/186908921-7419da16-7a4c-4ec7-b95b-c9f3885aaffb.jpg)
 
-![9.jpg](../_resources/9.jpg)
+![9](https://user-images.githubusercontent.com/111416724/186908929-7b773fb1-f30c-44dc-93d7-353ff7488a5c.jpg)
 
 ## 四、问题总结与体会
 
